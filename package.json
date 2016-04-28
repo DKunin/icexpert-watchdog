@@ -1,0 +1,22 @@
+{
+  "name": "icexpert-watchdog",
+  "version": "0.1.0",
+  "repository": "git@github.com:DKunin/icexpert-watchdog.git",
+  "description": "Watchdog to check for new images of the building",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DKunin",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "2.0.0",
+    "nodemailer": "1.10.0",
+    "nodemailer-mailgun-transport": "1.0.1",
+    "superagent": "1.8.3"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "iceexpert-watchdog": "./index.js"
+  }
+}
